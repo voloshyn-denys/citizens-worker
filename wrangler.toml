@@ -1,0 +1,8 @@
+name = "citizens-worker"
+type = "javascript"
+
+account_id = "04a9dd7abd4bca04fdc58df88eb830a8"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-01-01"
