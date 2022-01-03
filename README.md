@@ -1,15 +1,12 @@
-# 👷 `worker-template` Hello World
+# 👷 Citizens Cloudflare Worker
 
-A template for kick starting a Cloudflare worker project.
+Proxy:
+---> web3 ---> cloudflare worker ---> ethereum
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
+```sh
+# Listening on http://127.0.0.1:8787
+wrangler dev
 
-#### Wrangler
-
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
-
+# Publish on https://citizens-worker.denys-voloshyn.workers.dev/
+wrangler publish
 ```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
-
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
